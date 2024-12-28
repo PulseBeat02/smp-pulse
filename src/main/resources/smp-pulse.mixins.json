@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "me.brandonli.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BannerItemMixin",
+		"BannerDuplicateRecipeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
